@@ -1,0 +1,53 @@
+.ul{
+    display: flex;
+    list-style-type: none;
+    background-color: grey;
+    margin-top: 0%;
+}
+.li{
+    padding: 4%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.container ul {
+    display: block;
+}
+h1 {
+    text-align: center;
+}
+#logo {
+    width: 100px;
+}
+.form{
+    text-align: center;
+}
+
+.form input {
+    margin: 10px;
+}
+.pagina {
+    margin-top: 0%;
+}
+.banner {
+    background-image: url("https://www.itsaltoadriatico.it/nws/wp-content/uploads/2024/05/banner-fascia-chi-siamo-2024.jpg");
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;
+    height: 600px;
+  }
+.banner h1 {
+    font-size: 50px;
+    text-align: left;
+  padding-top: 25vh;
+}
+.a{
+    color: blue;
+    cursor: pointer;
+}

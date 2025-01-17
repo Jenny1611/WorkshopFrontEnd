@@ -1,18 +1,18 @@
 import {useState} from "react";
-import "./Group1-1.jsx.css";
-import ITSLogo from "../../assets/itsaltoadriatico-logo-big.png";
+import styles from "./Group1-1.module.css";
+import itsLogo from "../../../assets/ITS-Alto-Adriatico-logo-new.svg";
 
 export default function Group1_1() {
   const [checked, setChecked] = useState(false);
   return (
     <>
-      <header>
-        <img src={ITSLogo} alt="its" />
-        <ul>
-          <li>
+      <header className={styles.header}>
+        <img src={itsLogo} alt="its" className={styles.img}/>
+        <ul className={styles.ul}>
+          <li className={styles.li}>
             <a href="form.html">Chi siamo</a>
           </li>
-          <li>
+          <li className={styles.li}>
             <a href="form.html">Form</a>
           </li>
         </ul>
@@ -22,7 +22,7 @@ export default function Group1_1() {
         <h1 style={{textAlign: "center"}} className="mt-3">
           Resoconto della giornata
         </h1>
-        <div className="d">
+        <div className={styles.d}>
           <p>
             Abbiamo lavorato come gruppo Base 1 (David Machì anno 2, Giulia Quaino anno 1, Alessio Mingolo anno 2\) alla
             creazione di una pagina HTML senza l’uso di JavaScript.
@@ -39,9 +39,11 @@ export default function Group1_1() {
         </div>
       </div>
 
-      <h1 style={{textAlign: "center"}} className="mb-3">Dati Personali</h1>
-      <div className="c">
-        <form className="a">
+      <h1 style={{textAlign: "center"}} className="mb-3">
+        Dati Personali
+      </h1>
+      <div className={styles.c}>
+        <form className={styles.a}>
           <div className="mb-3">
             <label className="form-label">Nome</label>
             <input type="text" name="nome" className="form-control" />
@@ -86,7 +88,7 @@ export default function Group1_1() {
               <option>Francia</option>
             </select>
           </div>
-          <button id="inserisci" className="btn btn-secondary">
+          <button id={styles.button} className="btn btn-secondary">
             Inserisci
           </button>
         </form>

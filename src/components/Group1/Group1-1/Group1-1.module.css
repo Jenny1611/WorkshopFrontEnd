@@ -1,4 +1,4 @@
-form.a {
+.a {
     display: flex;
     flex-direction: column;
     width: 30%;
@@ -8,23 +8,23 @@ form.a {
     display: flex;
 }
 
-button {
+#button {
     margin-top: 10px;
 }
 
-header {
+.header {
     display: flex;
     background-color: beige;
     padding: 16px;
     gap: 96px;
 }
 
-img {
+.img {
     width: 120px;
     height: auto;
 }
 
-ul {
+.ul {
     list-style-type: none;
     gap: 96px;
     display: flex;

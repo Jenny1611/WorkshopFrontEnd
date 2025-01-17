@@ -1,0 +1,58 @@
+.header {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mm {
+    margin-top: 60px;
+}
+
+.titolo {
+    text-align: center;
+}
+
+.p {
+    padding: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#nikelogo {
+    margin-left: auto;
+}
+
+.con {
+    height: 250px;
+    width: 250px;
+}
+
+.con:hover {
+    height: 270px;
+    width: 270px;
+    cursor: pointer;
+}
+
+#contenitore {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#form {
+    width: 300px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.campi {
+    width: fit-content;
+    margin: 10px auto;
+}
+
+#button {
+    padding: 10px;
+}
