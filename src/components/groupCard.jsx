@@ -15,8 +15,8 @@ const GroupCard = ({ difficulty, imageSrc, title, text }) => {
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{text}</p>
         <a
-          href={`#${difficulty}`}
-          className="btn btn-primary"
+          href={`/#${difficulty}`}
+          className="btn btn-danger"
         >
           See project
         </a>
