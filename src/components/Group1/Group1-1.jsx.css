@@ -1,0 +1,41 @@
+form.a {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.b {
+    display: flex;
+}
+
+button {
+    margin-top: 10px;
+}
+
+header {
+    display: flex;
+    background-color: beige;
+    padding: 16px;
+    gap: 96px;
+}
+
+img {
+    width: 120px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    gap: 96px;
+    display: flex;
+}
+
+.c {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.d {
+    padding: 24px 120px;
+}

@@ -1,3 +1,4 @@
+import Group1_1 from '../components/Group1/Group1-1';
 import GroupCard from '../components/groupCard';
 import Navbar from '../components/navbar';
 
@@ -31,6 +32,8 @@ const Home = () => {
           />
         </div>
       </div>
+
+      <Group1_1></Group1_1>
     </>
   );
 };
