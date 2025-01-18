@@ -1,135 +1,99 @@
-import itsLogo from '../assets/ITS-Alto-Adriatico-logo-new.svg';
+import 'bootstrap/js/dist/dropdown';
+import ITSlogo from '/ITS-logo.png';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light px-4">
-      <a
-        className="navbar-brand"
-        href="#"
-      >
-        <img
-          src={itsLogo}
-          alt="Logo ITS Alto Adriatico"
-          style={{ height: '50px', width: 'auto' }}
-        />
-      </a>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div
-        className="collapse navbar-collapse"
-        id="navbarNav"
-      >
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <a
-              className="nav-link"
-              href="/#easy"
-            >
-              Easy
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              className="nav-link"
-              href="/#medium"
-            >
-              Medium
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              className="nav-link"
-              href="/#hard"
-            >
-              Hard
-            </a>
-          </li>
-        </ul>
+    <nav className='navbar navbar-expand-lg navbar-light bg-light'>
+      <div className='mx-5 my-2 container-fluid'>
+        <a
+          className='navbar-brand'
+          href='https://www.itsaltoadriatico.it'
+          target='_blank'
+        >
+          <img
+            src={ITSlogo}
+            alt='Logo di ITS Alto Adriatico'
+            className='d-inline-block align-text-top'
+            id='navbar-logo'
+          />
+        </a>
+        <button
+          className='navbar-toggler'
+          type='button'
+          data-bs-toggle='collapse'
+          data-bs-target='#navbarNavDropdown'
+          aria-controls='navbarNavDropdown'
+          aria-expanded='false'
+          aria-label='Toggle navigation'
+        >
+          <span className='navbar-toggler-icon'></span>
+        </button>
+        <div
+          className='collapse navbar-collapse'
+          id='navbarNavDropdown'
+        >
+          <ul className='navbar-nav'>
+            <li className='nav-item dropdown mx-4'>
+              <a
+                className='nav-link dropdown-toggle'
+                href='#beginner'
+                id='navbarDropdownMenuLink'
+                role='button'
+                data-bs-toggle='dropdown'
+                aria-expanded='false'
+              >
+                Beginner
+              </a>
+              <ul
+                className='dropdown-menu'
+                aria-labelledby='navbarDropdownMenuLink'
+              >
+                <li>
+                  <a
+                    className='dropdown-item'
+                    href='#beginner1'
+                  >
+                    Progetto 1
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className='dropdown-item'
+                    href='#beginner2'
+                  >
+                    Progetto 2
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className='dropdown-item'
+                    href='#beginner3'
+                  >
+                    Progetto 3
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li className='nav-item mx-4'>
+              <a
+                className='nav-link'
+                href='#intermediate'
+              >
+                Intermediate
+              </a>
+            </li>
+            <li className='nav-item mx-4'>
+              <a
+                className='nav-link'
+                href='#advanced'
+              >
+                Advanced
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-
-    // <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    //   <div className="container-fluid">
-    //     {/* Brand/Logo */}
-    //     <a
-    //       href="https://www.itsaltoadriatico.it/"
-    //       className="navbar-brand"
-    //     >
-    //       <img
-    //         src={itsLogo}
-    //         alt="Logo ITS Alto Adriatico"
-    //         style={{ height: '40px', width: 'auto' }}
-    //       />
-    //     </a>
-
-    //     {/* Toggle Button for Small Screens */}
-    //     <button
-    //       className="navbar-toggler"
-    //       type="button"
-    //       data-bs-toggle="collapse"
-    //       data-bs-target="#navbarNav"
-    //       aria-controls="navbarNav"
-    //       aria-expanded="false"
-    //       aria-label="Toggle navigation"
-    //     >
-    //       <span className="navbar-toggler-icon"></span>
-    //     </button>
-
-    //     {/* Navigation Links */}
-    //     <div
-    //       className="collapse navbar-collapse"
-    //       id="navbarNav"
-    //     >
-    //       <ul className="navbar-nav ms-auto">
-    //         <li className="nav-item">
-    //           <NavLink
-    //             to="/"
-    //             className="nav-link"
-    //             activeClassName="active"
-    //           >
-    //             Home
-    //           </NavLink>
-    //         </li>
-    //         <li className="nav-item">
-    //           <NavLink
-    //             to="/gruppo-base"
-    //             className="nav-link"
-    //             activeClassName="active"
-    //           >
-    //             Gruppo base
-    //           </NavLink>
-    //         </li>
-    //         <li className="nav-item">
-    //           <NavLink
-    //             to="/gruppo-medio"
-    //             className="nav-link"
-    //             activeClassName="active"
-    //           >
-    //             Gruppo medio
-    //           </NavLink>
-    //         </li>
-    //         <li className="nav-item">
-    //           <NavLink
-    //             to="/gruppo-avanzato"
-    //             className="nav-link"
-    //             activeClassName="active"
-    //           >
-    //             Gruppo avanzato
-    //           </NavLink>
-    //         </li>
-    //       </ul>
-    //     </div>
-    //   </div>
-    // </nav>
   );
 };
 

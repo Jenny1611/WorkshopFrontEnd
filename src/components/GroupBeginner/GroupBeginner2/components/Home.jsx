@@ -1,4 +1,4 @@
-import styles from "../Group1-2.module.css";
+import styles from "../GroupBeginner2.module.css";
 
 export default function Home() {
   return (

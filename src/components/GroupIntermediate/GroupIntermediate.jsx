@@ -1,5 +1,5 @@
 import {useRef, useState} from "react";
-import styles from "./Group2.module.css";
+import styles from "./GroupIntermediate.module.css";
 
 export default function Group2() {
   const [result, setResult] = useState("");

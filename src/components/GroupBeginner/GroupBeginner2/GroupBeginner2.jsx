@@ -1,9 +1,9 @@
 import {useState} from "react";
 import Home from "./components/Home";
 import ChiSiamo from "./components/ChiSiamo";
-import styles from "./Group1-2.module.css";
+import styles from "./GroupBeginner2.module.css";
 
-export default function Group1_2() {
+export default function GroupBeginner2() {
   const [currentPage, setCurrentPage] = useState("home");
   return (
     <>
@@ -18,16 +18,16 @@ export default function Group1_2() {
             Membri 1° anno: Aurora Gasparutti.
           </p>
           <p>
-            Abbiamo sviluppato due pagine web e il relativo file CSS per lo stile, con l'obiettivo di presentare un sito
-            informativo dedicato all'ITS Academy Alto Adriatico. Di seguito, i dettagli delle funzionalità implementate:
+            Abbiamo sviluppato due pagine web e il relativo file CSS per lo stile, con l&apos;obiettivo di presentare un sito
+            informativo dedicato all&apos;ITS Academy Alto Adriatico. Di seguito, i dettagli delle funzionalità implementate:
           </p>
           <ul>
             <li>
               <strong>Struttura delle Pagine Web:</strong> Sono state create due pagine HTML:
               <ul>
                 <li>
-                  <em>Pagina "Chi siamo":</em> Descrive l'istituto ITS Alto Adriatico, evidenziando la mission e il
-                  ruolo nell'ambito delle tecnologie ICT.
+                  <em>Pagina &quot;Chi siamo&quot;:</em> Descrive l&apos;istituto ITS Alto Adriatico, evidenziando la mission e il
+                  ruolo nell&apos;ambito delle tecnologie ICT.
                 </li>
                 <li>
                   <em>Homepage:</em> Funziona come punto di accesso principale al sito, includendo un modulo di
@@ -41,9 +41,9 @@ export default function Group1_2() {
               facilmente alle varie sezioni del sito.
             </li>
             <li>
-              <strong>Elementi Visivi:</strong> Il logo dell'ITS Alto Adriatico è stato posizionato nel menù di
-              navigazione per migliorare il branding visivo. Inoltre, un'immagine di banner decorativa è stata aggiunta
-              nella pagina "Chi siamo".
+              <strong>Elementi Visivi:</strong> Il logo dell&apos;ITS Alto Adriatico è stato posizionato nel menù di
+              navigazione per migliorare il branding visivo. Inoltre, un&apos;immagine di banner decorativa è stata aggiunta
+              nella pagina &quot;Chi siamo&quot;.
             </li>
             <li>
               <strong>Modulo di Contatto:</strong> Sulla homepage è stato implementato un modulo con campi per nome,
@@ -55,7 +55,7 @@ export default function Group1_2() {
             </li>
             <li>
               <strong>Responsività:</strong> È stato aggiunto il meta tag
-              <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;</code> per garantire
+              <code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;</code> per garantire
               che le pagine siano visualizzabili correttamente anche su dispositivi mobili.
             </li>
           </ul>

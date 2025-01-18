@@ -3,7 +3,7 @@
 
 import {useEffect, useState} from "react";
 import axios from "axios";
-import styles from "./Group3.module.css";
+import styles from "./GroupAdvanced.module.css";
 
 const Group_3 = () => {
   const [url, setUrl] = useState("https://pokeapi.co/api/v2/pokemon/");
@@ -49,7 +49,7 @@ const Group_3 = () => {
           <p>
             Questo piccolo progetto è stato realizzato con React e sfrutta la REST PokeApi per visualizzare i pokemon
             singoli.
-            <br /> Usa la libreria axios per richiedere i dati all'API e sfrutta gli hook di React per aggiornare la
+            <br /> Usa la libreria axios per richiedere i dati all&apos;API e sfrutta gli hook di React per aggiornare la
             grafica.
           </p>
         </div>

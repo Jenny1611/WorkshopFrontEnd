@@ -1,8 +1,8 @@
-import nikeLogo from "../../../assets/Screenshot 2025-01-17 112202.jpg";
-import image from "../../../assets/images.jpg";
-import styles from "./Group1-3.module.css";
+import nikeLogo from "/GroupBeginner/GroupBeginner3/nike-logo.jpg";
+import image from "/GroupBeginner/GroupBeginner3/windows-xp-hills.jpg";
+import styles from "./GroupBeginner3.module.css";
 
-export default function Group1_3() {
+export default function GroupBeginner3() {
   return (
     <>
       <div className="card bg-light m-3">
@@ -16,13 +16,13 @@ export default function Group1_3() {
             <br />
           </p>
           <p>
-            HTML: creazione di un header con delle ipotetiche voci di menu, form a titolo dimostrativo con all'interno
+            HTML: creazione di un header con delle ipotetiche voci di menu, form a titolo dimostrativo con all&apos;interno
             dei campi di input di diverso tipo (testo, numero, email e password).
             <br />
             <br />
             CSS: illustrazione di come si inietta lo stile in una pagina per cambiare il colore e la dimensione del
-            testo o di altri elementi. <br /> Utilizzo dell'effetto hover per modificare l'elemento simulando
-            un'animazione.
+            testo o di altri elementi. <br /> Utilizzo dell&apos;effetto hover per modificare l&apos;elemento simulando
+            un&apos;animazione.
             <br />
             <br />
             EXTRA: inclusione di file immagine e tag &lt;a&gt; per reindirizzare a pagine esterne.

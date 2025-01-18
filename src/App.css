@@ -1,3 +1,17 @@
 #root {
   margin: 0 auto;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+#navbar-logo {
+  height: 48px;
+  width: auto;
+}
+
+#hero-section {
+  width: 100%;
+  background: url(./hero-background-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

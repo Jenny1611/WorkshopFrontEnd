@@ -1,8 +1,8 @@
 import {useState} from "react";
-import styles from "./Group1-1.module.css";
-import itsLogo from "../../../assets/ITS-Alto-Adriatico-logo-new.svg";
+import styles from "./GroupBeginner1.module.css";
+import itsLogo from "/GroupBeginner/GroupBeginner1/ITS-logo.svg";
 
-export default function Group1_1() {
+export default function GroupBeginner1() {
   const [checked, setChecked] = useState(false);
   return (
     <>
@@ -18,12 +18,12 @@ export default function Group1_1() {
             <br />
           </p>
           <p>
-            Abbiamo lavorato alla creazione di una pagina HTML senza l'uso di JavaScript.
+            Abbiamo lavorato alla creazione di una pagina HTML senza l&apos;uso di JavaScript.
             <br />
-            Utilizzando i tag &lt;form&gt; e &lt;ul&gt;, abbiamo strutturato il form all'interno del &lt;body&gt;,
-            curandone la funzionalità e l'organizzazione.
+            Utilizzando i tag &lt;form&gt; e &lt;ul&gt;, abbiamo strutturato il form all&apos;interno del &lt;body&gt;,
+            curandone la funzionalità e l&apos;organizzazione.
             <br />
-            Successivamente, ci siamo concentrati sul miglioramento dell'interfaccia utente con CSS e Bootstrap,
+            Successivamente, ci siamo concentrati sul miglioramento dell&apos;interfaccia utente con CSS e Bootstrap,
             rendendo il design più gradevole e coerente.
             <br />
             <br /> Durante il processo, abbiamo collaborato per ottimizzare ogni aspetto del progetto.
