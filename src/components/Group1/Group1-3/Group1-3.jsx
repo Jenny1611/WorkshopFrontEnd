@@ -18,9 +18,11 @@ export default function Group1_3() {
         <li className={styles.mm}>Contattami</li>
       </header>
       <h1 className="titolo">Piacere, mi presento</h1>
-      <a href="https://www.youtube.com/watch?v=CsNTX6vVcLc">
-        <img src={nikeLogo} alt="" id={styles.nikeLogo} />
-      </a>
+      <div id={styles.div}>
+        <a href="https://www.youtube.com/watch?v=CsNTX6vVcLc">
+          <img src={nikeLogo} alt="" />
+        </a>
+      </div>
 
       <p className={styles.p}>
         Lorem ipsum dolor sit amet<span style={{color: "aqua"}}>Loremmm</span>Lorem ipsum dolor sit amet consectetur

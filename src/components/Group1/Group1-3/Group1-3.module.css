@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .mm {
@@ -19,8 +20,12 @@
     margin-right: 15px;
 }
 
-#nikelogo {
-    margin-left: auto;
+#div {
+    display: flex;
+}
+
+#div a {
+    margin: auto;
 }
 
 .con {
@@ -45,12 +50,24 @@
     margin: 100px auto;
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
 }
 
 .campi {
-    width: fit-content;
-    margin: 10px auto;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.campi label {
+    margin-right: 5px;
+}
+
+.campi input {
+    height: 22px;
 }
 
 #button {

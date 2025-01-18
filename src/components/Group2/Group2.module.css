@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.title {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    color: blue;
+    text-align: center;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+}
+
+#result p {
+    margin: auto;
+    padding: 10px 20px;
+}
+
+.errore {
+    border: 1px solid red;
+    color: red;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: brown;
+    color: white;
+}
+
+.button:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.box {
+    padding: 16px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.box div {
+    margin: 10px 16px;
+}
+
+.box div input {
+    margin-left: 10px;
+}

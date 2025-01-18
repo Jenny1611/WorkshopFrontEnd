@@ -4,6 +4,8 @@ import sampleImage from "../assets/sample-image.jpg";
 import Group1_1 from "../components/Group1/Group1-1/Group1-1";
 import Group1_2 from "../components/Group1/Group1-2/Group1-2";
 import Group1_3 from "../components/Group1/Group1-3/Group1-3";
+import Group2 from "../components/Group2/Group2";
+import Group3 from "../components/Group3/Group3";
 
 const Home = () => {
   return (
@@ -24,6 +26,8 @@ const Home = () => {
       <Group1_1></Group1_1>
       <Group1_2></Group1_2>
       <Group1_3></Group1_3>
+      <Group2></Group2>
+      <Group3></Group3>
     </>
   );
 };
