@@ -5,7 +5,6 @@ export default function Group2() {
   const [result, setResult] = useState("");
   const [tuttoOk1, setTuttoOk1] = useState(true);
   const [tuttoOk2, setTuttoOk2] = useState(true);
-  const textStyle = "{ border-color:red }";
   const errore = styles.errore;
   const ref1 = useRef();
   const ref2 = useRef();
@@ -53,39 +52,6 @@ export default function Group2() {
 
   return (
     <>
-      <div className="card bg-light m-3">
-        <div className="card-header">Gruppo 2</div>
-        <div className="card-body">
-          <h4 className="card-title">Confronta Numeri</h4>
-          <p className="card-text">
-            Membri 2° anno: Andrea Pellarin, Andrea Del Bianco, Andrea Ferrarella, Andrea Turchet.
-            <br />
-            Membri 1° anno: Emanuele Zanchetta, Giovanni Zol, Denis Mascherin.
-            <br />
-            <br />
-          </p>
-          <h5>Argomenti toccati in questo progetto: HTML, CSS, JAVASCRIPT.</h5>
-          <p>
-            HTML: creazione di un form tramite tag &lt;form&gt; con all'interno dei campi di input &lt;input
-            type="numer"&gt; nei quali verranno inseriti due numeri
-            <br />
-            e le relative &lt;label&gt; per identificare gli elementi e stampare i risultati.
-            <br />
-            <br />
-            CSS: import di un font da google font, input number responsive tramire utilizzo di classi CSS come .error
-            {textStyle} per identificare i cambi di input invalidi.
-            <br />
-            <br />
-            JAVASCRIPT: utilizzato per creare una funzione Confronta() che viene richiamata in modo da garantire un
-            aggiornamento in tempo reale della pagina,
-            <br />
-            essa viene utilizzata per valutare quale dei due numeri inseriti è più grande con stampa del relativo numero
-            in una label <br />
-            <br />
-            EXTRA: live editor for css (Vs code extension), shortcut utili per Vs code.
-          </p>
-        </div>
-      </div>
       <h1 className={styles.title}>Esercitazione</h1>
       <form id="form" onChange={eseguiConfronto}>
         <div id={styles.result}>

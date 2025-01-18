@@ -15,3 +15,11 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.link-underline-hover {
+  text-decoration: none;
+}
+
+.link-underline-hover:hover {
+  text-decoration: underline;
+}

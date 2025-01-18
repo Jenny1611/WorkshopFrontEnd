@@ -31,7 +31,7 @@ export default function Description() {
         <hr />
       </ul>
       <p>
-        È stata un'esperienza coinvolgente, in cui gli studenti del secondo anno hanno supportato i colleghi più
+        È stata un&apos;esperienza coinvolgente, in cui gli studenti del secondo anno hanno supportato i colleghi più
         giovani, spiegando gli argomenti e condividendo le proprie competenze.
       </p>
       <p>
@@ -40,14 +40,14 @@ export default function Description() {
           Tissino Jennifer
         </a>{" "}
         e{" "}
-        <a href="" target="blank">
+        <a href="https://www.linkedin.com/in/giacomo-bearzi-95216b309/" target="blank">
           Bearzi Giacomo
         </a>
         , hanno coordinato i gruppi e sviluppato questa pagina in React per mostrare i risultati dei vari progetti.
       </p>
       <p>
         La pagina illustra come si è evoluta la conoscenza degli studenti, dai concetti base a quelli avanzati, in un
-        anno di formazione all'ITS Academy Alto Adriatico.
+        anno di formazione all&apos;ITS Academy Alto Adriatico.
       </p>
     </div>
   );

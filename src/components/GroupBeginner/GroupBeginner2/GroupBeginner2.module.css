@@ -20,7 +20,7 @@
 .container ul {
     display: block;
 }
-h1 {
+#home-heading {
     text-align: center;
 }
 #logo {

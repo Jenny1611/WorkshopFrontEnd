@@ -36,25 +36,6 @@ const Group_3 = () => {
 
   return (
     <>
-      <div className="card bg-light m-3">
-        <div className="card-header">Gruppo 3</div>
-        <div className="card-body">
-          <h4 className="card-title">Pokedex con PokeApi e React</h4>
-          <p className="card-text">
-            Membri 2° anno: Mattia Pavan, Lorenzo Morici, Klevis Hasa.
-            <br />
-            Membri 1° anno: Marco Segato.
-            <br />
-          </p>
-          <p>
-            Questo piccolo progetto è stato realizzato con React e sfrutta la REST PokeApi per visualizzare i pokemon
-            singoli.
-            <br /> Usa la libreria axios per richiedere i dati all&apos;API e sfrutta gli hook di React per aggiornare la
-            grafica.
-          </p>
-        </div>
-      </div>
-
       <div className={styles.buttons}>
         <button className="prev" onClick={prevUrl}>
           Prev
@@ -85,7 +66,7 @@ const PokemonItem = ({pokemonUrl}) => {
 
   useEffect(() => {
     getPokemon(pokemonUrl);
-  }, []);
+  }, [pokemonUrl]);
 
   if (!data) {
     return <h1>WAIT</h1>;

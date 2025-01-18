@@ -36,7 +36,7 @@ const Navbar = () => {
             <li className='nav-item dropdown mx-4'>
               <a
                 className='nav-link dropdown-toggle'
-                href='#beginner'
+                href='#'
                 id='navbarDropdownMenuLink'
                 role='button'
                 data-bs-toggle='dropdown'

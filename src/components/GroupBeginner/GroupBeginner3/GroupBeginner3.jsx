@@ -5,30 +5,6 @@ import styles from "./GroupBeginner3.module.css";
 export default function GroupBeginner3() {
   return (
     <>
-      <div className="card bg-light m-3">
-        <div className="card-header">Gruppo 1 - sottogruppo 3</div>
-        <div className="card-body">
-          <h4 className="card-title">Pagina di esempio HTML e CSS</h4>
-          <p className="card-text">
-            Membri 2° anno: Leandro Meta.
-            <br />
-            Membri 1° anno: Matteo Celant, Valentina Rossi.
-            <br />
-          </p>
-          <p>
-            HTML: creazione di un header con delle ipotetiche voci di menu, form a titolo dimostrativo con all&apos;interno
-            dei campi di input di diverso tipo (testo, numero, email e password).
-            <br />
-            <br />
-            CSS: illustrazione di come si inietta lo stile in una pagina per cambiare il colore e la dimensione del
-            testo o di altri elementi. <br /> Utilizzo dell&apos;effetto hover per modificare l&apos;elemento simulando
-            un&apos;animazione.
-            <br />
-            <br />
-            EXTRA: inclusione di file immagine e tag &lt;a&gt; per reindirizzare a pagine esterne.
-          </p>
-        </div>
-      </div>
       <header className={styles.header}>
         <li className={styles.mm}>
           <a href="https://thephotosociety.org/member/charles-orear/" target="blank">

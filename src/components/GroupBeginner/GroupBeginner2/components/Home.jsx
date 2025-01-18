@@ -3,7 +3,7 @@ import styles from "../GroupBeginner2.module.css";
 export default function Home() {
   return (
     <>
-      <h1>Welcome to the homepage</h1>
+      <h1 id="home-heading">Welcome to the homepage</h1>
       <form className={styles.form}>
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" name="name" />

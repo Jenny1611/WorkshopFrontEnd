@@ -6,32 +6,6 @@ export default function GroupBeginner1() {
   const [checked, setChecked] = useState(false);
   return (
     <>
-      <div className="card bg-light m-3">
-        <div className="card-header">Gruppo 1 - sottogruppo 1</div>
-        <div className="card-body">
-          <h4 className="card-title">Resoconto della giornata</h4>
-          <br />
-          <p className="card-text">
-            Membri 2° anno: David Machì, Alessio Mingolo.
-            <br />
-            Membri 1° anno: Giulia Quaino.
-            <br />
-          </p>
-          <p>
-            Abbiamo lavorato alla creazione di una pagina HTML senza l&apos;uso di JavaScript.
-            <br />
-            Utilizzando i tag &lt;form&gt; e &lt;ul&gt;, abbiamo strutturato il form all&apos;interno del &lt;body&gt;,
-            curandone la funzionalità e l&apos;organizzazione.
-            <br />
-            Successivamente, ci siamo concentrati sul miglioramento dell&apos;interfaccia utente con CSS e Bootstrap,
-            rendendo il design più gradevole e coerente.
-            <br />
-            <br /> Durante il processo, abbiamo collaborato per ottimizzare ogni aspetto del progetto.
-            <br />
-            Infine, abbiamo realizzato un resoconto per documentare il lavoro svolto e le soluzioni adottate.
-          </p>
-        </div>
-      </div>
       <header className={styles.header}>
         <img src={itsLogo} alt="its" className={styles.img} />
         <ul className={styles.ul}>
