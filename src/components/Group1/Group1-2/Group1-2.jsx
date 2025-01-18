@@ -15,6 +15,7 @@ export default function Group1_2() {
           <p className="card-text">
             Membri 2° anno: Matteo Venuti.
             <br />
+            Membri 1° anno: Aurora Gasparutti.
           </p>
           <p>
             Abbiamo sviluppato due pagine web e il relativo file CSS per lo stile, con l'obiettivo di presentare un sito

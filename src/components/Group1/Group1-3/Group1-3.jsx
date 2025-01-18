@@ -12,6 +12,8 @@ export default function Group1_3() {
           <p className="card-text">
             Membri 2° anno: Leandro Meta.
             <br />
+            Membri 1° anno: Matteo Celant, Valentina Rossi.
+            <br />
           </p>
           <p>
             HTML: creazione di un header con delle ipotetiche voci di menu, form a titolo dimostrativo con all'interno

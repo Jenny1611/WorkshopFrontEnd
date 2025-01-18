@@ -3,15 +3,16 @@
 
 import {useEffect, useState} from "react";
 import axios from "axios";
+import styles from "./Group3.module.css";
 
 const Group_3 = () => {
+  const [url, setUrl] = useState("https://pokeapi.co/api/v2/pokemon/");
+  const [result, setResult] = useState(undefined);
+
   async function getPokemon() {
     const data = await axios.get(url).then((response) => response.data);
     setResult(data);
   }
-
-  const [url, setUrl] = useState("https://pokeapi.co/api/v2/pokemon/");
-  const [result, setResult] = useState(undefined);
 
   function nextUrl() {
     if (result.next) {
@@ -54,22 +55,22 @@ const Group_3 = () => {
         </div>
       </div>
 
-      <div>
+      <div className={styles.buttons}>
         <button className="prev" onClick={prevUrl}>
           Prev
         </button>
         <button className="next" onClick={nextUrl}>
           Next
         </button>
+      </div>
 
-        <div className="">
+        <div className={styles.pokeList}>
           <ul>
             {result.results.map((element, index) => (
               <PokemonItem pokemonUrl={element.url} key={index} />
             ))}
           </ul>
         </div>
-      </div>
     </>
   );
 };
@@ -91,7 +92,7 @@ const PokemonItem = ({pokemonUrl}) => {
   }
 
   return (
-    <div>
+    <div className={styles.pokeItem}>
       {data.id}
       <img src={data.sprites.other["official-artwork"].front_default} />
       <p>{data.name}</p>
