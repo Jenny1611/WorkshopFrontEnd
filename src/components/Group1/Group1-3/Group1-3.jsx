@@ -5,9 +5,31 @@ import styles from "./Group1-3.module.css";
 export default function Group1_3() {
   return (
     <>
+      <div className="card bg-light m-3">
+        <div className="card-header">Gruppo 1 - sottogruppo 3</div>
+        <div className="card-body">
+          <h4 className="card-title">Pagina di esempio HTML e CSS</h4>
+          <p className="card-text">
+            Membri 2° anno: Leandro Meta.
+            <br />
+          </p>
+          <p>
+            HTML: creazione di un header con delle ipotetiche voci di menu, form a titolo dimostrativo con all'interno
+            dei campi di input di diverso tipo (testo, numero, email e password).
+            <br />
+            <br />
+            CSS: illustrazione di come si inietta lo stile in una pagina per cambiare il colore e la dimensione del
+            testo o di altri elementi. <br /> Utilizzo dell'effetto hover per modificare l'elemento simulando
+            un'animazione.
+            <br />
+            <br />
+            EXTRA: inclusione di file immagine e tag &lt;a&gt; per reindirizzare a pagine esterne.
+          </p>
+        </div>
+      </div>
       <header className={styles.header}>
         <li className={styles.mm}>
-          <a href="https://thephotosociety.org/member/charles-orear/">
+          <a href="https://thephotosociety.org/member/charles-orear/" target="blank">
             <img src={image} alt="sfondo" />
           </a>
         </li>
@@ -19,7 +41,7 @@ export default function Group1_3() {
       </header>
       <h1 className="titolo">Piacere, mi presento</h1>
       <div id={styles.div}>
-        <a href="https://www.youtube.com/watch?v=CsNTX6vVcLc">
+        <a href="https://www.youtube.com/watch?v=CsNTX6vVcLc" target="blank">
           <img src={nikeLogo} alt="" />
         </a>
       </div>

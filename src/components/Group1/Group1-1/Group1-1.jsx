@@ -6,8 +6,34 @@ export default function Group1_1() {
   const [checked, setChecked] = useState(false);
   return (
     <>
+      <div className="card bg-light m-3">
+        <div className="card-header">Gruppo 1 - sottogruppo 1</div>
+        <div className="card-body">
+          <h4 className="card-title">Resoconto della giornata</h4>
+          <br />
+          <p className="card-text">
+            Membri 2° anno: David Machì, Alessio Mingolo.
+            <br />
+            Membri 1° anno: Giulia Quaino.
+            <br />
+          </p>
+          <p>
+            Abbiamo lavorato alla creazione di una pagina HTML senza l'uso di JavaScript.
+            <br />
+            Utilizzando i tag &lt;form&gt; e &lt;ul&gt;, abbiamo strutturato il form all'interno del &lt;body&gt;,
+            curandone la funzionalità e l'organizzazione.
+            <br />
+            Successivamente, ci siamo concentrati sul miglioramento dell'interfaccia utente con CSS e Bootstrap,
+            rendendo il design più gradevole e coerente.
+            <br />
+            <br /> Durante il processo, abbiamo collaborato per ottimizzare ogni aspetto del progetto.
+            <br />
+            Infine, abbiamo realizzato un resoconto per documentare il lavoro svolto e le soluzioni adottate.
+          </p>
+        </div>
+      </div>
       <header className={styles.header}>
-        <img src={itsLogo} alt="its" className={styles.img}/>
+        <img src={itsLogo} alt="its" className={styles.img} />
         <ul className={styles.ul}>
           <li className={styles.li}>
             <a href="form.html">Chi siamo</a>
@@ -17,27 +43,6 @@ export default function Group1_1() {
           </li>
         </ul>
       </header>
-
-      <div>
-        <h1 style={{textAlign: "center"}} className="mt-3">
-          Resoconto della giornata
-        </h1>
-        <div className={styles.d}>
-          <p>
-            Abbiamo lavorato come gruppo Base 1 (David Machì anno 2, Giulia Quaino anno 1, Alessio Mingolo anno 2\) alla
-            creazione di una pagina HTML senza l’uso di JavaScript.
-            <br />
-            Utilizzando i tag `form` e `ul`, abbiamo strutturato il form all’interno del `body`, curandone la
-            funzionalità e l’organizzazione.
-            <br />
-            Successivamente, ci siamo concentrati sul miglioramento dell’interfaccia utente con CSS e Bootstrap,
-            rendendo il design più gradevole e coerente.
-            <br /> Durante il processo, abbiamo collaborato per ottimizzare ogni aspetto del progetto.
-            <br />
-            Infine, abbiamo realizzato un resoconto per documentare il lavoro svolto e le soluzioni adottate.
-          </p>
-        </div>
-      </div>
 
       <h1 style={{textAlign: "center"}} className="mb-3">
         Dati Personali

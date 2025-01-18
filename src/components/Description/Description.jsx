@@ -1,4 +1,4 @@
-import styles from "./TopDescription.module.css";
+import styles from "./Description.module.css";
 
 export default function Description() {
   return (

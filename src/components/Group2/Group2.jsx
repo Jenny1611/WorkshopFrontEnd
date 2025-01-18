@@ -58,9 +58,9 @@ export default function Group2() {
         <div className="card-body">
           <h4 className="card-title">Confronta Numeri</h4>
           <p className="card-text">
-            Membri 2°anno: Andrea Pellarin, Andrea Del Bianco, Andrea Ferrarella, Andrea Turchet.
+            Membri 2° anno: Andrea Pellarin, Andrea Del Bianco, Andrea Ferrarella, Andrea Turchet.
             <br />
-            Membri 1°anno: Emanuele Zanchetta, Giovanni Zol, Denis Mascherin.
+            Membri 1° anno: Emanuele Zanchetta, Giovanni Zol, Denis Mascherin.
             <br />
             <br />
           </p>
