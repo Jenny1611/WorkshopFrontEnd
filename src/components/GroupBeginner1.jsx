@@ -1,6 +1,6 @@
 import {useState} from "react";
 import styles from "./GroupBeginner1.module.css";
-import itsLogo from "/GroupBeginner/GroupBeginner1/ITS-logo.svg";
+import itsLogo from "/ITS-logo.svg";
 
 export default function GroupBeginner1() {
   const [checked, setChecked] = useState(false);

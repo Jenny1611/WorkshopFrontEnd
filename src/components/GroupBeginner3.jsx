@@ -1,5 +1,5 @@
-import nikeLogo from "/GroupBeginner/GroupBeginner3/nike-logo.jpg";
-import image from "/GroupBeginner/GroupBeginner3/windows-xp-hills.jpg";
+import nikeLogo from "/nike-logo.jpg";
+import image from "/windows-xp-hills.jpg";
 import styles from "./GroupBeginner3.module.css";
 
 export default function GroupBeginner3() {

@@ -1,5 +1,5 @@
 import "bootstrap/js/dist/dropdown";
-import ITSlogo from "/ITS-logo.png";
+import ITSlogo from "/ITS-logo.svg";
 import {useEffect, useState} from "react";
 import clsx from "clsx";
 
