@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 
-import GroupBeginner1 from "./GroupBeginner/GroupBeginner1/GroupBeginner1.jsx";
-import GroupBeginner2 from "./GroupBeginner/GroupBeginner2/GroupBeginner2.jsx";
-import GroupBeginner3 from "./GroupBeginner/GroupBeginner3/GroupBeginner3.jsx";
-import GroupIntermediate from "./GroupIntermediate/GroupIntermediate.jsx";
-import GroupAdvanced from "./GroupAdvanced/GroupAdvanced.jsx";
+import GroupBeginner1 from "./GroupBeginner1.jsx";
+import GroupBeginner2 from "./GroupBeginner2.jsx";
+import GroupBeginner3 from "./GroupBeginner3.jsx";
+import GroupIntermediate from "./GroupIntermediate.jsx";
+import GroupAdvanced from "./GroupAdvanced.jsx";
 import ResultItem from "./ResultItem.jsx";
 
 const ResultsList = ({groups}) => {
