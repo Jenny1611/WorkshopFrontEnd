@@ -17,7 +17,7 @@ export default function GroupBeginner2() {
           </a>
         </li>
         <li className={styles.li}>
-          <a className={styles.a} onClick={() => setCurrentPage("form")}>
+          <a className={styles.a} onClick={() => setCurrentPage("chiSiamo")}>
             Chi siamo
           </a>
         </li>

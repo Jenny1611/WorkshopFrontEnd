@@ -8,7 +8,7 @@ const Hero = () => {
       id='hero-section'
     >
       <div className='my-5 w-75 mx-auto d-flex flex-column justify-content-center'>
-        <h1 className='text-white'>
+        <h1 className='text-white' style={{textAlign: "left"}}>
           <FontAwesomeIcon
             icon={faCode}
             className='me-2'

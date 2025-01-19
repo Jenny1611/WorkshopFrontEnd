@@ -6,9 +6,9 @@ export default function GroupBeginner3() {
   return (
     <>
       <header className={styles.header}>
-        <li className={styles.mm}>
+        <li className={styles.mm} style={{margin: 0}}>
           <a href="https://thephotosociety.org/member/charles-orear/" target="blank">
-            <img src={image} alt="sfondo" />
+            <img src={image} alt="sfondo" style={{borderTopLeftRadius: 5}} />
           </a>
         </li>
 
@@ -60,7 +60,9 @@ export default function GroupBeginner3() {
         </div>
 
         <div>
-          <button id={styles.button}>INVIA</button>
+          <button id={styles.button} onClick={(event) => event.preventDefault()}>
+            INVIA
+          </button>
         </div>
       </form>
     </>

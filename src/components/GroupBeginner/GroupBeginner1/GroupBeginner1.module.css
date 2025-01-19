@@ -10,6 +10,7 @@
 
 #button {
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .header {
@@ -17,6 +18,8 @@
     background-color: beige;
     padding: 16px;
     gap: 96px;
+    margin-bottom: 20px;
+    border-radius: 5px 5px 0 0;
 }
 
 .img {

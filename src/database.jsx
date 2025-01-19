@@ -74,7 +74,7 @@ const groups = [
   // Secondo gruppo
   {
     id: 'intermediate',
-    firstYearMembers: 'Emanuele Zanchetta, Giovanni Zol, Denis Mascherin.',
+    firstYearMembers: 'Emanuele Zanchetta, Giovanni Zol, Denis Mascherin',
     secondYearMembers:
       'Andrea Pellarin, Andrea Del Bianco, Andrea Ferrarella, Andrea Turchet',
     name: 'Gruppo Intermediate',
@@ -102,7 +102,7 @@ const groups = [
   // Terzo gruppo
   {
     id: 'advanced',
-    firstYearMembers: 'Marco Segato',
+    firstYearMembers: 'Marco Segato, Nicola Marano',
     secondYearMembers: 'Mattia Pavan, Lorenzo Morici, Klevis Hasa',
     name: 'Gruppo Advanced',
     card: {

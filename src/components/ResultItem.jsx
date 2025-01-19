@@ -30,8 +30,8 @@ const ResultItem = ({ children, group }) => {
                 <p>{parse(group.projects[index].description)}</p>
               </div>
             </div>
-            <div key={index}>
-              <div className='container border border rounded mb-2'>
+            <div key={index} style={{paddingBottom: 50}}>
+              <div className='container border border rounded mb-2' style={{padding: 0}}>
                 {child}
               </div>
             </div>

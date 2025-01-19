@@ -51,7 +51,7 @@ export default function Group2() {
   }
 
   return (
-    <>
+    <div className={styles.exercise}>
       <h1 className={styles.title}>Esercitazione</h1>
       <form id="form" onChange={eseguiConfronto}>
         <div id={styles.result}>
@@ -71,6 +71,6 @@ export default function Group2() {
           <input id="invia" className={styles.button} type="submit" value="confronta" onClick={submit} />
         </div>
       </form>
-    </>
+    </div>
   );
 }

@@ -10,10 +10,10 @@ export default function GroupBeginner1() {
         <img src={itsLogo} alt="its" className={styles.img} />
         <ul className={styles.ul}>
           <li className={styles.li}>
-            <a href="form.html">Chi siamo</a>
+            <a>Chi siamo</a>
           </li>
           <li className={styles.li}>
-            <a href="form.html">Form</a>
+            <a>Form</a>
           </li>
         </ul>
       </header>
@@ -67,7 +67,7 @@ export default function GroupBeginner1() {
               <option>Francia</option>
             </select>
           </div>
-          <button id={styles.button} className="btn btn-secondary">
+          <button id={styles.button} className="btn btn-secondary" onClick={(event) => event.preventDefault()}>
             Inserisci
           </button>
         </form>
