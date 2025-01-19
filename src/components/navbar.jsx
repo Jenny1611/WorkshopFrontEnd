@@ -5,8 +5,7 @@ import clsx from "clsx";
 
 const Navbar = () => {
   const [element, setElement] = useState("");
-  const sections = ["beginner", "intermediate", "advanced"];
-  const subSections = ["beginner1", "beginner2", "beginner3"];
+  const sections = ["beginner1", "beginner2", "beginner3", "intermediate", "advanced"];
 
   function handleScroll() {
     const scrollPosition = window.scrollY;
@@ -15,32 +14,22 @@ const Navbar = () => {
       if (section) {
         const offsetTop = section.offsetTop - 110;
         const offsetHeight = section.offsetHeight - 110;
-        let offsetTop2;
-        let offsetHeight2;
-        if (sectionId === "beginner") {
-          subSections.forEach((subSectionId) => {
-            const subSection = document.getElementById(subSectionId);
-            if (subSection) {
-              offsetTop2 = subSection.offsetTop + offsetTop - 110;
-              offsetHeight2 = subSection.offsetHeight + offsetHeight - 110;
-              if (scrollPosition >= offsetTop2 && scrollPosition < offsetTop2 + offsetHeight2) {
-                setElement(subSectionId);
-              }
+        if (sectionId.startsWith("b")) {
+          const beginnerSection = document.getElementById("beginner");
+          if (beginnerSection) {
+            const offsetTop2 = beginnerSection.offsetTop + offsetTop - 110;
+            if (scrollPosition >= offsetTop2 && scrollPosition < offsetTop2 + offsetHeight) {
+              setElement(sectionId);
+            } else if (scrollPosition < offsetTop && sectionId === "beginner1") {
+              setElement("");
             }
-          });
+          }
         } else if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
           setElement(sectionId);
-        }
-        if (scrollPosition < offsetTop && sectionId === "beginner") {
-          setElement("");
         }
       }
     });
   }
-
-  useEffect(() => {
-    handleScroll();
-  }, []);
 
   window.addEventListener("scroll", handleScroll);
 
@@ -69,7 +58,6 @@ const Navbar = () => {
           <ul className="navbar-nav">
             <li className="nav-item dropdown mx-4">
               <a
-                onClick={() => setElement("beginner")}
                 className={clsx("nav-link dropdown-toggle", {selected: element.startsWith("b")})}
                 href="#"
                 id="navbarDropdownMenuLink"
@@ -80,44 +68,29 @@ const Navbar = () => {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li>
-                  <a
-                    onClick={() => setElement("beginner1")}
-                    className={clsx("dropdown-item", {selected: element === "beginner1"})}
-                    href="#beginner1">
+                  <a className={clsx("dropdown-item", {selected: element === "beginner1"})} href="#beginner1">
                     Progetto 1
                   </a>
                 </li>
                 <li>
-                  <a
-                    onClick={() => setElement("beginner2")}
-                    className={clsx("dropdown-item", {selected: element === "beginner2"})}
-                    href="#beginner2">
+                  <a className={clsx("dropdown-item", {selected: element === "beginner2"})} href="#beginner2">
                     Progetto 2
                   </a>
                 </li>
                 <li>
-                  <a
-                    onClick={() => setElement("beginner3")}
-                    className={clsx("dropdown-item", {selected: element === "beginner3"})}
-                    href="#beginner3">
+                  <a className={clsx("dropdown-item", {selected: element === "beginner3"})} href="#beginner3">
                     Progetto 3
                   </a>
                 </li>
               </ul>
             </li>
             <li className="nav-item mx-4">
-              <a
-                onClick={() => setElement("intermediate")}
-                className={clsx("nav-link", {selected: element === "intermediate"})}
-                href="#intermediate">
+              <a className={clsx("nav-link", {selected: element === "intermediate"})} href="#intermediate">
                 Intermediate
               </a>
             </li>
             <li className="nav-item mx-4">
-              <a
-                onClick={() => setElement("advanced")}
-                className={clsx("nav-link", {selected: element === "advanced"})}
-                href="#advanced">
+              <a className={clsx("nav-link", {selected: element === "advanced"})} href="#advanced">
                 Advanced
               </a>
             </li>
