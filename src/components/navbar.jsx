@@ -20,7 +20,7 @@ const Navbar = () => {
             const offsetTop2 = beginnerSection.offsetTop + offsetTop - 110;
             if (scrollPosition >= offsetTop2 && scrollPosition < offsetTop2 + offsetHeight) {
               setElement(sectionId);
-            } else if (scrollPosition < offsetTop && sectionId === "beginner1") {
+            } else if (scrollPosition < offsetTop2 && sectionId === "beginner1") {
               setElement("");
             }
           }
